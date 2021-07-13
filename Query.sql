@@ -5,25 +5,25 @@ SELECT * FROM MealsInfo;
 SELECT* FROM MealInfo limit 1;
 
 -----LIMIT ROWS FROM TABLE---
-SELECT  * from  table1 limit 5
+SELECT  * from  VALUE limit 5
 
 ----DELETE-----
-DELETE from table1 WHERE meal_id=1438;
-SELECT * from table1
+DELETE from VALUE WHERE meal_id=1438;
+SELECT * from VALUE
 
 
 -----UPDATE VALUES----
 UPDATE table1
 SET category = "Salad" WHERE meal_id=2307;
-SELECT * from VALUES;
+SELECT * from VALUE;
 
 ---insert values
-INSERT into VALUES values(1755,"Bevarages","Thai");
-SELECT * FROM VALUES
+INSERT into VALUE values(1755,"Bevarages","Thai");
+SELECT * FROM VALUE
 
 -----DROP TABLE-----
-INSERT into value values(2640,"Straters","Thai");
-SELECT *FROM VALUES;
+drop table VALUE;
+SELECT * from VALUE
 
 -----SORT IN ORDER----
 SELECT * FROM VALUE ORDER BY Pizza DESC;
