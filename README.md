@@ -13,5 +13,9 @@ MongoDB Queries:
 
 find(),limit(),insert_one(),insert_many(),count(),update_many(),update_one(),delete_one(),delete_many()
 
+NOSQL Query:
+
+SELECT,limit,update,delete,drop,desc
+
 
 
