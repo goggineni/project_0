@@ -5,6 +5,7 @@
 
 
 import pymongo
+from pymongo import MongoClient
 client = pymongo.MongoClient('localhost',27017)
 database = client['mealinfo']
 docs  = [{"meal_id":1885,"category":"Beverages","cuisine":"Thai"},
