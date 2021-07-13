@@ -9,13 +9,13 @@ REQUIREMENTS
 
 2.Jupiter Notebook
 
-MongoDB Queries:
+MongoDB Commanda:
 
 find(),limit(),insert_one(),insert_many(),count(),update_many(),update_one(),delete_one(),delete_many()
 
-NOSQL Query:
+NOSQL COMMANDS:
 
-SELECT,limit,update,delete,drop,desc
+SELECT ,limit ,UPDATE ,DELETE ,DROP, DESC
 
 
 
