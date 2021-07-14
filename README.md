@@ -6,8 +6,12 @@ By Tejaswi
 REQUIREMENTS
 
 1.MongoDB
+
 2.Json file
+
 3.Jupiter Notebook
+
+4.SQL
 
 MongoDB Commands:
 
