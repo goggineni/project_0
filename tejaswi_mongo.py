@@ -80,7 +80,7 @@ database.MealInfo.insert_one(docs)
 
 
 #delete
-reault = {"meal_id":1445,"category":"Seafood","cuisine":"Continental"}
+result = {"meal_id":1445,"category":"Seafood","cuisine":"Continental"}
 database.mealInfo.delete_one(result)
 
 
