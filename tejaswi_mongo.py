@@ -65,7 +65,7 @@ docs  = [{"meal_id":1885,"category":"Beverages","cuisine":"Thai"},
 
 
 #insert_many
-database.MealInfo.insert_many(docs)
+database.mealinfo.insert_many(docs)
 
 
 # In[5]:
@@ -73,7 +73,7 @@ database.MealInfo.insert_many(docs)
 
 #insert_one
 docs={"meal_id":20000,"category":"sandwich","cuisine":"Indian"}
-database.MealInfo.insert_one(docs)
+database.mealinfo.insert_one(docs)
 
 
 # In[7]:
@@ -81,7 +81,7 @@ database.MealInfo.insert_one(docs)
 
 #delete
 result = {"meal_id":1445,"category":"Seafood","cuisine":"Continental"}
-database.mealInfo.delete_one(result)
+database.mealinfo.delete_one(result)
 
 
 # In[9]:
@@ -95,28 +95,28 @@ database.mealInfo.find()
 
 
 #find()
-database.MealInfo.find({"cuisine":"Continental"})
+database.mealinfo.find({"cuisine":"Continental"})
 
 
 # In[11]:
 
 
 #sort
-database.MealInfo.find().sort("_id",4)
+database.mealinfo.find().sort("_id",4)
 
 
 # In[12]:
 
 
 #limit
-database.MealInfo.find().limit(5)
+database.mealinfo.find().limit(5)
 
 
 # In[13]:
 
 
 #find_one
-database.MealInfo.find_one({"category":"Sandwich"})
+database.mealinfo.find_one({"category":"Sandwich"})
 
 
 # In[15]:
@@ -129,18 +129,18 @@ database.MealInfo.update_many({"meal_id":72},{"$set":docs})
 # In[25]:
 
 #del-many
-database.MealInfo.delete_many({})
-
-
-# In[37]:
-#count
-
-print(database.MealInfo.find().count());
+database.mealinfo.delete_many({})
 
 
 # In[35]:
+#count
+
+print(database.mealinfo.find().count());
+
+
+# In[37]:
 #Drop
-database.MealInfo.drop()
+database.mealinfo.drop()
 
 
 
