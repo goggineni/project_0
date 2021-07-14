@@ -6,14 +6,14 @@ By Tejaswi
 REQUIREMENTS
 
 1.MongoDB
+2.Json file
+3.Jupiter Notebook
 
-2.Jupiter Notebook
-
-MongoDB Commanda:
+MongoDB Commands:
 
 find(),limit(),insert_one(),insert_many(),count(),update_many(),update_one(),delete_one(),delete_many()
 
-NOSQL COMMANDS:
+SQL COMMANDS:
 
 SELECT ,limit ,UPDATE ,DELETE ,DROP, DESC
 
